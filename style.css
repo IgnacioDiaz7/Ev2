@@ -1,0 +1,47 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    padding-top: 100px;
+    background-image: url(https://img2.goodfon.com/wallpaper/nbig/c/95/monster-energy-energetik-966.jpg);
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background-color: rgb(18, 54, 54);
+}
+a{
+    color: rgb(30, 255, 0);
+    font-size: 20px;
+    
+}
+
+.brand img{
+    height: 75px;
+    width: 75px;
+}
+
+header{
+    top:0;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+.container{
+    background-color: rgba(240, 248, 255, 0.596);
+    color:black;
+    font-size: 20px;
+    justify-content: end;
+}
