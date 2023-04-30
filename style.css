@@ -1,19 +1,21 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 body{
-    padding-top: 100px;
-    background-image: url(https://img2.goodfon.com/wallpaper/nbig/c/95/monster-energy-energetik-966.jpg);
+    background-color: black;
     justify-content: center;
     align-items: center;
+
 }
 
 nav{
     background-color: rgb(18, 54, 54);
+    margin-bottom: 50px;
 }
 a{
-    color: rgb(30, 255, 0);
+    color: white;
     font-size: 20px;
     
 }
@@ -23,25 +25,105 @@ a{
     width: 75px;
 }
 
-header{
-    top:0;
-    position: fixed;
-    width: 100%;
-    height: 70px;
-}
 
 footer{
+    bottom: 0;
     text-align: center;
     margin-top: 25px;
     color: white;
 }
 
 a:hover{
-    color: rgb(255, 255, 255);
+    color: greenyellow;
 }
-.container{
-    background-color: rgba(240, 248, 255, 0.596);
-    color:black;
+.container_1{
+    color:white;
+    max-width: 990px;
+    margin: 0 auto;
+    display: table;
+    float: none;
+}
+
+
+img{
+    vertical-align: middle;
+}
+
+#monsterbebida{
+    width: 90%;
+    display: table;
+    max-width: 310px;
+    margin: 0 auto;
+}
+#monsterenergy{
+    width: 90%;
+    display: table;
+    max-width: 310px;
+    margin: 0 auto;
+}
+
+#titulo{
+    font-weight: 700;
+}
+
+#detalles{
+    width: 100%;
+    font-size: 11px;
+    padding: 0 0 0 20px;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 17px;
+}
+p.tagline{
+    color: #fff;
     font-size: 20px;
-    justify-content: end;
+    font-weight: 700;
+    font-style: italic;
 }
+
+#detalles{
+    position: relative;
+    float: left;
+    padding: 0 0 0 40px;
+    text-align: center;
+    width: 62%;
+}
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#titulo, #cuerpo{
+    font-size: 17px;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    vertical-align: middle;
+}
+
+
+#titwall{
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
