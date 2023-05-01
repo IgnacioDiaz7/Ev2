@@ -1,0 +1,29 @@
+h1{
+    font-size: 50px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#monsterbebida{
+    width: 90%;
+    display: table;
+    max-width: 310px;
+    margin: 0 auto;
+}
+#monsterenergy{
+    width: 90%;
+    display: table;
+    max-width: 310px;
+    margin: 0 auto;
+}
