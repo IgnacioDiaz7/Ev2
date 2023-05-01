@@ -1,0 +1,51 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+
+}
+nav{
+    background-color: rgb(18, 54, 54);
+    margin-bottom: 50px;
+}
+a{
+    color: white;
+    font-size: 20px;
+    
+}
+
+.brand img{
+    height: 75px;
+    width: 75px;
+}
+
+footer{
+    
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+
+a:hover{
+    color: greenyellow;
+}
+h1{
+    font-weight: 400;
+    color: #FFF;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 184px;
+}
+
+#link{
+    color: white;
+    text-align: center;
+}
+.btn{
+    font-size: 25px;
+    box-shadow: 4px 4px 8px 1px greenyellow, -4px -4px 8px 1px greenyellow;
+    background-color: white;
+}
